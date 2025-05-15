@@ -7,10 +7,10 @@ from opensubtitlescom import OpenSubtitles
 from langs import LANGS, MESSAGES
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
-bot = TeleBot('8013948985:AAGvsZfwaDNv57jk22sy513XIVUcx68AYMk')
+bot = TeleBot('Token')
 
-subtitles = OpenSubtitles("SUBstitute v1.0", "oOLvhHyhYVtWru6aDRDqelCw3z2Pz0R8")
-subtitles.login('poll333_3', 'kignyB-kiccaw-9dudje')
+subtitles = OpenSubtitles("SUBstitute v1.0", "Key")
+subtitles.login('log', 'pass')
 
 user_locale = {}     # chat.id -> 'ru' / 'en' / 'it'
 user_language = {}   # chat.id -> subtitle language (en, ru, etc.)
